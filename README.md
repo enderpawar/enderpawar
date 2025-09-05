@@ -1,4 +1,3 @@
-이진우의 프로필입니다.
 
 <!--
 **enderpawar/enderpawar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
