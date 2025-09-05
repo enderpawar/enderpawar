@@ -1,4 +1,4 @@
-## Hi there 👋
+
 
 <!--
 **enderpawar/enderpawar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +14,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+![enderpawar's GitHub stats](https://github-readme-stats.vercel.app/api?username=enderpawar&show_icons=true&theme=dark)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=enderpawar)](https://solved.ac/enderpawar)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=enderpawar&layout=dark&theme=dark)
