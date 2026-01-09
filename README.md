@@ -36,6 +36,7 @@
 ## 📂 Featured Projects
 
 ### 1. CREATIVE AI | 노드 기반 비주얼 AI 파이프라인 에디터
+<img width="3839" height="1968" alt="image" src="https://github.com/user-attachments/assets/391eb0ae-743a-4634-8f4a-730471769f97" />
 > **"복잡한 AI 로직을 직관적인 노드 인터페이스로 시각화하여 설계 진입 장벽 최적화"** > [📂 Repository](https://github.com/enderpawar/CREATIVE_AI) | [🔗 Live Demo](https://enderpawar.github.io/CREATIVE_AI/)
 
 * **Problem:** 사용자의 자유로운 노드 연결로 인한 **순환 참조(Circular Reference)** 발생 시, 실행 단계에서 무한 루프 및 브라우저 크래시 위험 존재.
@@ -49,6 +50,8 @@
 ---
 
 ### 2. TRADE BUILDER | 전략적 자산 운용 자동화 시스템
+<img width="3822" height="2018" alt="image" src="https://github.com/user-attachments/assets/e7110cd4-3cbb-43a0-a0b3-02cba3f9ac1f" />
+
 > **"방대한 시장 데이터를 핵심 지표로 단순화하여 사용자 중심의 자동화 환경 구축"** > [📂 Repository](https://github.com/Trade-Builder/Trade-Builder-Client)
 
 * **Problem:** 실시간 유입되는 초당 수천 건의 **틱 데이터(Tick Data)** 처리 시 클라이언트 렌더링 병목 및 메모리 과부하 발생.
