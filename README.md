@@ -37,6 +37,7 @@
 
 ### 1. CREATIVE AI | 노드 기반 비주얼 AI 파이프라인 에디터
 <img width="3839" height="1968" alt="image" src="https://github.com/user-attachments/assets/391eb0ae-743a-4634-8f4a-730471769f97" />
+
 > **"복잡한 AI 로직을 직관적인 노드 인터페이스로 시각화하여 설계 진입 장벽 최적화"** > [📂 Repository](https://github.com/enderpawar/CREATIVE_AI) | [🔗 Live Demo](https://enderpawar.github.io/CREATIVE_AI/)
 
 * **Problem:** 사용자의 자유로운 노드 연결로 인한 **순환 참조(Circular Reference)** 발생 시, 실행 단계에서 무한 루프 및 브라우저 크래시 위험 존재.
