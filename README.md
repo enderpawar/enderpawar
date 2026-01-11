@@ -70,7 +70,7 @@
 ## 📈 Daily & Collaborative Habit
 
 * **Continuous Learning:** 매일 알고리즘 문제 풀이를 통해 복잡한 문제를 논리적으로 쪼개는 훈련을 지속합니다.
-* **Proactive Communication:** 코드 리뷰 시 '어떻게(How)'보다 **'왜(Why)'**에 집중하며, 팀 전체의 기술적 성장을 도모합니다.
-* **AI Pair Programming:** Cursor와 Claude를 적극 활용해 반복적인 코드를 줄이고, 고차원적인 비즈니스 로직 설계에 집중합니다.
+* **Why-Driven Review:** 코드 리뷰 시 '어떻게(How)'보다 **'왜(Why)'**에 집중하여 트러블 슈팅에 대응할 수 있을 기술적 성장을 도모합니다.
+* **AI Pair Programming:** Cursor 또는 Copilot를 적극 활용해 반복적인 코드를 줄이고, 고차원적인 비즈니스 로직 설계에 집중합니다.
 
 ---
