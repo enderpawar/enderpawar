@@ -70,6 +70,7 @@
 ## 📂 Featured Projects
 
 ### 1. CS-NextDoor | OpenCV × Gemini 기반 PC 진단 가이드
+<img width="463" height="680" alt="image" src="https://github.com/user-attachments/assets/0c3673b5-86d7-4bfb-abfb-202aaf565406" />
 
 > "텍스트 안내는 있는데, 화면에서 그게 어디인지 모르는 문제"
 
@@ -85,6 +86,7 @@
 - **한계 (명시)** — 품질 필터 ROC는 n=13 소표본이고, ROI 개수는 OCR 정확도의 대리 지표입니다. 결론을 일반화하지 않았습니다.
 
 ### 2. TRADE BUILDER | 노드 기반 자산 운용 자동화
+<img width="3822" height="2018" alt="image" src="https://github.com/user-attachments/assets/b15de7a1-390d-4d2b-9ca6-989a8a0ac9a2" />
 
 > "초당 수천 건의 틱 데이터를 핵심 시그널로 단순화하기"
 
@@ -96,6 +98,7 @@
 - **다음 단계** — 매매 로직 단위 테스트 및 백테스트 추가 (실자산이 움직이는 도메인이라 검증 우선순위가 가장 높습니다)
 
 ### 3. CREATIVE AI | 노드 기반 비주얼 AI 파이프라인 에디터
+<img width="2560" height="1347" alt="image" src="https://github.com/user-attachments/assets/30e44352-fa77-469e-977d-b81fcc131d37" />
 
 > "복잡한 AI 로직을 직관적인 노드로 시각화"
 
