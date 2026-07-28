@@ -12,7 +12,7 @@
 
 ---
 
-## 📈 Daily Practice
+##  Daily Practice
 
 매일 세 가지를 **기록으로** 남깁니다. 말보다 흔적으로 증명하는 편을 선호합니다.
 
@@ -22,7 +22,7 @@
 | **Backend** | Spring 기본기 8주 커리큘럼 | [`[백엔드 기본기]` 시리즈](https://velog.io/@snowmile1224/posts) |
 | **Writing** | 학습 과정을 매일 정리 | [Tech Blog](https://velog.io/@snowmile1224/posts) |
 
-### 📝 최근 작성한 글
+###  최근 작성한 글
 
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
@@ -41,7 +41,7 @@
 
 ---
 
-## 💡 Engineering Philosophy
+##  Engineering Philosophy
 
 > "내부 로직을 간단하고 직관적으로 만들어 팀과 사용자에게 명료함을 전달"
 
@@ -54,7 +54,7 @@
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 현재 **프로젝트에 적용해본 것**과 **학습 중인 것**을 구분해 적었습니다.
 
