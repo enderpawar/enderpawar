@@ -70,7 +70,7 @@
 ## 📂 Featured Projects
 
 ### 1. CS-NextDoor | OpenCV × Gemini 기반 PC 진단 가이드
-<img width="463" height="680" alt="image" src="https://github.com/user-attachments/assets/0c3673b5-86d7-4bfb-abfb-202aaf565406" />
+<img width="1151" height="1638" alt="image" src="https://github.com/user-attachments/assets/ebbc5f80-2809-4253-a04e-91bb5b17ec92" />
 
 > "텍스트 안내는 있는데, 화면에서 그게 어디인지 모르는 문제"
 
