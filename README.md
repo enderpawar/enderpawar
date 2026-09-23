@@ -19,7 +19,7 @@
 | 트랙 | 내용 | 기록 |
 |---|---|---|
 | **Algorithm** | 하루 2~3문제 + 풀이 회고 | [LeetCode-75](https://github.com/enderpawar/LeetCode-75) |
-| **Backend** | Spring 기본기 8주 커리큘럼 | [`[Spring Study]` 시리즈]([https://velog.io/@snowmile1224/posts](https://velog.io/@snowmile1224/series/Spring-Boot-Study)) |
+| **Backend** | Spring 기본기 8주 커리큘럼 | [`[Spring Study]` 시리즈](https://velog.io/@snowmile1224/series/Spring-Boot-Study) |
 | **Writing** | 학습 과정을 매일 정리 | [Tech Blog](https://velog.io/@snowmile1224/posts) |
 
 ###  최근 작성한 글
