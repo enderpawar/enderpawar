@@ -60,7 +60,7 @@
 
 | Category | 프로젝트 적용 경험 | 학습 중 (2026 H2) |
 |---|---|---|
-| **Backend** | Spring Boot (REST API 설계·SSE 스트리밍), Node.js | JPA, 트랜잭션, Spring Security |
+| **Backend** | Spring Boot (REST API 설계·SSE 스트리밍), Node.js, JPA, 트랜잭션, |  Spring Security |
 | **Frontend** | React, TypeScript, Vite, Electron | Next.js |
 | **CV / AI** | OpenCV (Python · WASM), Gemini Vision API | — |
 | **Infra** | GitHub Actions, Vercel, Railway | Docker, PostgreSQL, Redis |
