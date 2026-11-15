@@ -4,7 +4,7 @@
 
 기술을 무분별하게 더하기보다, CS 지식과 데이터를 근거로 최적의 추상화를 설계하는 과정을 즐깁니다.
 
-> 서울과학기술대학교 재학 (3학년) · **백엔드 엔지니어**를 목표로 Spring 기본기와 알고리즘을 매일 기록하며 학습 중입니다.
+> 서울과학기술대학교 재학 (3학년) · **프론트 / 백엔드 엔지니어**를 목표로 웹 전반에 대한 설계를 공부하고 있으며, 그중 Spring 기본기와 알고리즘을 매일 기록하며 학습 중입니다.
 
 [![Tech Blog](https://img.shields.io/badge/Tech%20Blog-11B48A?style=flat-square&logo=velog&logoColor=white)](https://velog.io/@snowmile1224/posts)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EC%A7%84%EC%9A%B0-%EC%9D%B4-484bab3a3/)
