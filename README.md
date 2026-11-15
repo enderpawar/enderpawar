@@ -89,7 +89,7 @@
   - 백엔드가 죽어도 핵심 동선(스핀 → 추천 → 결과)은 그대로 동작하는 **로컬 우선** 구조
 
 ### 2. STack | 과제 확인부터 복습까지, 한 화면 학습 플랫폼 (팀 프로젝트)
-<img width="1552" height="773" alt="STack 학생 홈 전체 화면 보기" src="assets/stack.jpg" />
+<img width="2560" height="1440" alt="STack 발표 표지 — 과제 확인부터 복습까지" src="assets/stack.jpg" />
 
 > "마감은 홈에서, 복습은 과목 학습실에서 이어 주기"
 
