@@ -60,16 +60,52 @@
 
 | Category | 프로젝트 적용 경험 | 학습 중 (2026 H2) |
 |---|---|---|
-| **Backend** | Spring Boot (REST API 설계·SSE 스트리밍), Node.js, JPA, 트랜잭션, |  Spring Security |
-| **Frontend** | React, TypeScript, Vite, Electron | Next.js |
+| **Backend** | Spring Boot (REST API 설계·SSE 스트리밍), Spring Security + JWT, JPA, 트랜잭션, Flyway, MySQL, Node.js | PostgreSQL, Redis |
+| **Frontend** | React, TypeScript, Vite, PWA (Service Worker), Electron | Next.js |
 | **CV / AI** | OpenCV (Python · WASM), Gemini Vision API | — |
-| **Infra** | GitHub Actions, Vercel, Railway | Docker, PostgreSQL, Redis |
+| **Infra** | GitHub Actions, Docker Compose, Cloudflare Pages · Workers, Vercel, Railway | AWS, Terraform |
 
 ---
 
 ## 📂 Featured Projects
 
-### 1. CS-NextDoor | OpenCV × Gemini 기반 PC 진단 가이드
+### 1. Spindle | 휴대폰을 돌려 만나는 관광 분산형 탐색 PWA
+<img width="3840" height="2160" alt="Spindle 홈, 스핀, 결과 카드, 코스 안내 화면" src="assets/spindle.jpg" />
+
+> "설득이 아니라 게임 구조로 관광 쏠림을 흩어 놓기"
+
+[📂 Repository](https://github.com/enderpawar/Spindle) · [🔗 Live Demo](https://spindle-6vp.pages.dev) · `React` `TypeScript` `PWA` `Cloudflare Workers` `Spring Boot` `MySQL` `TourAPI`
+
+2026 관광데이터 활용 공모전 출품작 · 1인 개발
+
+- **Problem** — 부산 방문객의 기억이 해운대(58.4%)·광안리(31.7%) 같은 소수 대표지에 쏠려 있습니다. 반경 검색은 바다 건너 직선거리도 "가깝다"고 판단합니다.
+- **Solution** — 휴대폰을 돌려 정한 8방위 안에서 방향 일치도 × 접근 가능성 × 운영 상태 × 분산 가중치로 후보를 좁힌 뒤 가중 랜덤으로 추천합니다.
+  대상지를 5개 생활권 존으로 나누고 교량·지하철 경유 비용을 반영한 **존-교량 접근성 모델**을 직접 설계했습니다.
+- **Privacy by Design** — GPS 좌표·방위각은 어떤 서버로도 보내지 않고 위치 계산을 전부 단말에서 합니다.
+  선언에 그치지 않도록 금지 패턴 스캐너가 커밋마다 좌표 전송 코드를 차단합니다.
+- **Results**
+  - TourAPI 2개 서비스(관광정보 + 집중률 예측) 실시간 연동, 숨은 명소(T3)는 대표 관광지(T1)보다 **3.2배 높은 분산 가중치**
+  - 공모전 이후 Spring Boot 백엔드 추가 — 로그인 없는 익명 기기 토큰(JWT), 도장 동기화, 운영자 큐레이션, Flyway·MySQL 8.4·Docker compose 배포
+  - 백엔드가 죽어도 핵심 동선(스핀 → 추천 → 결과)은 그대로 동작하는 **로컬 우선** 구조
+
+### 2. STack | 서울과기대 e-Class 재구현 (팀 프로젝트)
+<img width="3840" height="2160" alt="STack e-Class 학생 홈 화면 (목업 데이터)" src="assets/stack.jpg" />
+
+> "매일 쓰는 학교 LMS를, 학생이 가장 먼저 해야 할 일부터 보이게"
+
+`🔒 Private (STack-Corp)` · `Spring Boot 4.1` `Java 25` `MySQL 8.4` `Vanilla JS PWA` `AWS` `Terraform`
+
+- **Problem** — 기존 e-Class(ASTRA)를 분석해 보니 과목 선택이 세션 전역 상태에 묶여 있고, 출석·마감 시각을 서버 시계로 보장하지 않는 등 고쳐야 할 구조가 있었습니다.
+- **Solution** — 원본 화면과 동작을 명세로 먼저 정리(근거 수준 `OBSERVED`/`INFERRED`/`PROPOSED`)한 뒤, 그 계약을 지키는 **modular monolith** 백엔드와 프런트를 새로 구현했습니다.
+  주요 결정은 ADR 38건으로 남겼습니다 (SSO BFF 세션, 멱등 원장, 서버 시계 기준 출석 등).
+- **My Part**
+  - 학생 홈 — 마감 임박 작업 hero, `나의 하루`, 마감순 정렬, 다크 테마
+  - 히어로 검색창 — 과목 단축어 매칭(음절 건너뛰기·초성·영문 약어, 예: `데베` → 데이터베이스)과 AI 비서 명령 실행
+  - 과목별 PDF 학습실 — Worker에서 PDF를 파싱해 페이지별 원문·주요 단어 제공 (AI 요약이 아닌 원문 발췌)
+  - 학교 계정 로그인과 수강과목 동기화 (백엔드 ↔ 프런트 연결), 오류 응답·업로드 거절 등 백엔드 이슈 수정
+- **협업** — Jira 이슈 → 브랜치 → PR 리뷰 흐름, CI에서 MySQL 컨테이너 마이그레이션·ERD 스냅샷·모듈 의존 규칙까지 검사
+
+### 3. CS-NextDoor | OpenCV × Gemini 기반 PC 진단 가이드
 <img width="1151" height="1638" alt="image" src="https://github.com/user-attachments/assets/ebbc5f80-2809-4253-a04e-91bb5b17ec92" />
 
 > "텍스트 안내는 있는데, 화면에서 그게 어디인지 모르는 문제"
@@ -84,29 +120,6 @@
   - 불필요한 API 호출 제거 → **호출량 83% 감소, 시간당 $1.50 → $0.26**
   - 실촬영 BIOS 22장으로 ROI 검출 검증
 - **한계 (명시)** — 품질 필터 ROC는 n=13 소표본이고, ROI 개수는 OCR 정확도의 대리 지표입니다. 결론을 일반화하지 않았습니다.
-
-### 2. TRADE BUILDER | 노드 기반 자산 운용 자동화
-<img width="3822" height="2018" alt="image" src="https://github.com/user-attachments/assets/b15de7a1-390d-4d2b-9ca6-989a8a0ac9a2" />
-
-> "초당 수천 건의 틱 데이터를 핵심 시그널로 단순화하기"
-
-[📂 Repository](https://github.com/Trade-Builder/Trade-Builder-Client) · `Electron` `React 19` `TypeScript` `Rete.js` `Upbit API`
-
-- **Problem** — 고빈도 틱 데이터를 그대로 렌더링하면 클라이언트에서 병목이 발생했습니다.
-- **Solution** — 데이터 파이프라인에서 핵심 시그널만 추출하고, 컴포넌트를 Atomic 단위로 분리해 갱신 범위를 좁혔습니다.
-- **Results** — **UI 리렌더링 20% 감소, 메모리 점유 약 25% 절감**
-- **다음 단계** — 매매 로직 단위 테스트 및 백테스트 추가 (실자산이 움직이는 도메인이라 검증 우선순위가 가장 높습니다)
-
-### 3. CREATIVE AI | 노드 기반 비주얼 AI 파이프라인 에디터
-<img width="2560" height="1347" alt="image" src="https://github.com/user-attachments/assets/30e44352-fa77-469e-977d-b81fcc131d37" />
-
-> "복잡한 AI 로직을 직관적인 노드로 시각화"
-
-[📂 Repository](https://github.com/enderpawar/CREATIVE_AI) · [🔗 Live Demo](https://enderpawar.github.io/CREATIVE_AI/) · `React 19` `TypeScript` `Rete.js v2` `Gemini API`
-
-- **Problem** — 사용자가 노드를 자유롭게 연결하면 순환 참조로 무한 루프와 크래시가 발생할 수 있었습니다.
-- **Solution** — 실행 **전에** DFS 기반 정적 분석으로 순환 구조를 감지해 차단했습니다.
-- **Results** — 런타임 무한 루프 0건 / 파이프라인을 Python·Jupyter 코드로 내보내기 지원
 
 ---
 
