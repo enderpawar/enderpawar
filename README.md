@@ -48,6 +48,7 @@
 - **Evidence-based Design** — 취향이 아니라 데이터와 제약 조건(성능·비용·저장 공간)으로 결정합니다.
   → *CS-NextDoor에서 36개 파라미터 조합을 실측 비교해 전처리 파이프라인을 확정했습니다.*
 - **Simplicity over Complexity** — 동료가 1분 안에 이해할 수 있는 로직을 우선합니다.
+  → *Spindle에서는 핵심 탐색 흐름을 단말에서 처리해, 백엔드 장애에도 스핀 → 추천 → 결과가 이어지도록 설계했습니다.* — [Google Play](https://play.google.com/store/apps/details?id=kr.spindle.app) · [App Store](https://apps.apple.com/kr/app/spindle/id6807658917)
 - **Documenting 'Why'** — 결정의 근거를 남깁니다. 학습 과정은 [기술 블로그](https://velog.io/@snowmile1224/posts)에,
   코드 변경의 의도는 PR 본문에 `[Design Decision]` 형식으로 기록합니다.
 - **결과를 과장하지 않기** — 측정했다면 표본 수와 한계도 함께 적습니다.
@@ -74,7 +75,7 @@
 
 > "설득이 아니라 게임 구조로 관광 쏠림을 흩어 놓기"
 
-[📂 Repository](https://github.com/enderpawar/Spindle) · [🔗 Live Demo](https://spindle-6vp.pages.dev) · `React` `TypeScript` `PWA` `Cloudflare Workers` `Spring Boot` `MySQL` `TourAPI`
+[📂 Repository](https://github.com/enderpawar/Spindle) · [🔗 Live Demo](https://spindle-6vp.pages.dev) · [Google Play](https://play.google.com/store/apps/details?id=kr.spindle.app) · [App Store](https://apps.apple.com/kr/app/spindle/id6807658917) · `React` `TypeScript` `PWA` `Cloudflare Workers` `Spring Boot` `MySQL` `TourAPI`
 
 2026 관광데이터 활용 공모전 출품작 · 1인 개발
 
@@ -93,7 +94,7 @@
 
 > "마감은 홈에서, 복습은 과목 학습실에서 이어 주기"
 
-`🔒 Private (STack-Corp)` · ENDPoinT 2026 · Team 13 · `Spring Boot 4.1` `Java 25` `MySQL 8.4` `Vanilla JS PWA` `AWS` `Terraform`
+[🔗 Live Demo](https://eclass.stack-edu.com) · `🔒 Private (STack-Corp)` · ENDPoinT 2026 · Team 13 · `Spring Boot 4.1` `Java 25` `MySQL 8.4` `Vanilla JS PWA` `AWS` `Terraform`
 
 - **Problem** — 학교 e-Class에서 강의자료 하나를 복습하려면 **클릭 8회, 화면·앱 전환 4회**가 필요했습니다.
   AI로 복습하려면 PDF를 내려받아 다른 앱에 다시 올려야 하고(업로드형 → 흐름이 끊김), 연동형 서비스는 학교 계정을 맡겨야 했습니다(계정 위험). 실제로 2026년 11월 여러 대학이 외부 서비스에 학교 계정을 입력하지 말라고 공지했습니다.
