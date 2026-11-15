@@ -98,7 +98,7 @@
 
 > "마감은 홈에서, 복습은 과목 학습실에서 이어 주기"
 
-[🔗 Live Demo](https://eclass.stack-edu.com) · [📂 Repository](https://github.com/2026ENDPoinT/team13) · ENDPoinT 2026 · Team 13 · `Spring Boot 4.1` `Java 25` `MySQL 8.4` `Vanilla JS PWA` `AWS` `Terraform`
+[📂 Repository](https://github.com/2026ENDPoinT/team13) · [🔗 Live Demo](https://eclass.stack-edu.com) · ENDPoinT 2026 · Team 13 · `Spring Boot 4.1` `Java 25` `MySQL 8.4` `Vanilla JS PWA` `AWS` `Terraform`
 
 - **Problem** — 학교 e-Class에서 강의자료 하나를 복습하려면 **클릭 8회, 화면·앱 전환 4회**가 필요했습니다.
   AI로 복습하려면 PDF를 내려받아 다른 앱에 다시 올려야 하고(업로드형 → 흐름이 끊김), 연동형 서비스는 학교 계정을 맡겨야 했습니다(계정 위험). 실제로 2026년 11월 여러 대학이 외부 서비스에 학교 계정을 입력하지 말라고 공지했습니다.
